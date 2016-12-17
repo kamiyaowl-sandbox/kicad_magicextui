@@ -30,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:hastech
 LIBS:kamiya
-LIBS:kicad_magicsub1690b-cache
+LIBS:kicad_magicsub1590b-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -745,43 +745,43 @@ Text Label 5450 3275 0    60   ~ 0
 GPO_2
 Wire Wire Line
 	5450 3275 5875 3275
-Text Label 8100 1775 0    60   ~ 0
+Text Label 8075 1775 0    60   ~ 0
 ADC_3
-Text Label 8100 1875 0    60   ~ 0
+Text Label 8075 1875 0    60   ~ 0
 ADC_4
-Text Label 8100 1975 0    60   ~ 0
+Text Label 8075 1975 0    60   ~ 0
 ADC_5
-Text Label 8100 2075 0    60   ~ 0
+Text Label 8075 2075 0    60   ~ 0
 ADC_6
-Text Label 8100 2175 0    60   ~ 0
+Text Label 8075 2175 0    60   ~ 0
 ADC_7
 $Comp
 L GND #PWR12
 U 1 1 586156CC
-P 8425 2225
-F 0 "#PWR12" H 8425 1975 50  0001 C CNN
-F 1 "GND" H 8425 2075 50  0000 C CNN
-F 2 "" H 8425 2225 50  0000 C CNN
-F 3 "" H 8425 2225 50  0000 C CNN
-	1    8425 2225
+P 8400 2225
+F 0 "#PWR12" H 8400 1975 50  0001 C CNN
+F 1 "GND" H 8400 2075 50  0000 C CNN
+F 2 "" H 8400 2225 50  0000 C CNN
+F 3 "" H 8400 2225 50  0000 C CNN
+	1    8400 2225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 1775 8425 1775
+	8075 1775 8400 1775
 Wire Wire Line
-	8425 1775 8425 2225
+	8400 1775 8400 2225
 Wire Wire Line
-	8100 1875 8425 1875
-Connection ~ 8425 1875
-Connection ~ 8425 1975
-Connection ~ 8425 2075
-Connection ~ 8425 2175
+	8075 1875 8400 1875
+Connection ~ 8400 1875
+Connection ~ 8400 1975
+Connection ~ 8400 2075
+Connection ~ 8400 2175
 Wire Wire Line
-	8100 1975 8425 1975
+	8075 1975 8400 1975
 Wire Wire Line
-	8100 2075 8425 2075
+	8075 2075 8400 2075
 Wire Wire Line
-	8100 2175 8425 2175
+	8075 2175 8400 2175
 $Comp
 L CONN_02X14 P2
 U 1 1 58616648
@@ -1098,15 +1098,15 @@ Entry Wire Line
 Entry Wire Line
 	6875 1975 6975 1875
 Entry Wire Line
-	8000 1875 8100 1775
+	7975 1875 8075 1775
 Entry Wire Line
-	8000 1975 8100 1875
+	7975 1975 8075 1875
 Entry Wire Line
-	8000 2075 8100 1975
+	7975 2075 8075 1975
 Entry Wire Line
-	8000 2175 8100 2075
+	7975 2175 8075 2075
 Entry Wire Line
-	8000 2275 8100 2175
+	7975 2275 8075 2175
 Wire Bus Line
 	7975 1200 7975 2275
 Wire Bus Line
